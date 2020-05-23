@@ -1,0 +1,20 @@
+module.exports = {
+  apps: [
+    {
+      name: "Name_Yo_App",
+      script: "Full_Path_To_Index.js_Goes_here",
+      instances: 1,
+      exec_mode: "cluster",
+      watch: true,
+
+      env: {
+        PASSWORD: "Password_Goes_Here",
+        CLIENT_ID: "Client_Id_Goes_Here",
+        CLIENT_SECRET: "Client_Secret_Goes_Here",
+        USERAGENT: "Useragent_Goes_Here",
+        SUBREDDIT: "Subreddit_Goes_Here", // This variable support comma delimited values, eg "smashbros,smashbrosultimate", please note the lack of space between the comma and other values
+        USER_NAME: "Username_Goes_Here",
+      },
+    },
+  ],
+};

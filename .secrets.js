@@ -1,6 +1,6 @@
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const USERNAME = process.env.USERNAME;
+const USERNAME = process.env.USER_NAME;
 const PASSWORD = process.env.PASSWORD;
 const USER_AGENT = process.env.USERAGENT;
 const SUBREDDIT = process.env.SUBREDDIT;
