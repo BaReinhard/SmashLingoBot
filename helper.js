@@ -22,7 +22,7 @@ function tsvJSON(tsv){
 }
 
 function canSummon(msg){
-    return msg && msg.toLowerCase().includes(`/u/${USERNAME.toLowerCase()}`);
+    return msg && msg.toLowerCase().includes(`u/${USERNAME.toLowerCase()}`);
 };
 
 function calculateSmashLingoKnowledge(text, terms) {
